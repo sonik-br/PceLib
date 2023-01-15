@@ -11,7 +11,11 @@ It's been tested and confirmed to work with:
 |------------------|------------------------------------------|
 | 2-button Pad     |                                          |
 | AvenuePad 6      |                                          |
+| Multitap         | Model PI-PD003                           |
 
+Multitap notes:
+Not possible to detect if a pad is connected or not.<br/>
+Lib will report all multitap ports as having a device connected.
 
 ## How to use
 PCE controllers works with 5V so I recommend to use a 5V Arduino.
@@ -41,9 +45,10 @@ It uses the [DigitalIO](https://github.com/greiman/DigitalIO) from greiman.
 
 I recommend the usage of [SukkoPera's fork of DigitalIO](https://github.com/SukkoPera/DigitalIO) as it supports a few more platforms.
 
-Based on [documentation](https://github.com/dshadoff/PCE_Controller_Info) from David Shadoff
+Based on [documentation](https://github.com/dshadoff/PCE_Controller_Info) from David Shadoff.<br/>
+And from emulator [NitroGrafx](https://github.com/FluBBaOfWard/NitroGrafx/blob/main/Docs/pcetech_edit.txt).
 
-Special thanks to [MisterAddons](https://github.com/misteraddons)
+Special thanks to [MisterAddons](https://github.com/misteraddons) and my friend Lucas Milani.
 
 
 ## Warning
