@@ -191,6 +191,7 @@ class PcePort {
         multitapPorts = 0;
         //Since pad cant be detected, report as one pad connected
         //Sets all pads as none except the first one
+        joyCount = 1;
         for(uint8_t tapPort = 0; tapPort < TAP_PCE_PORTS; tapPort++) {
           PceController& pc = getPceController(tapPort);
           if(tapPort == 0)
